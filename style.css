@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+
+}
+
+.nav-bar .logo{
+    margin-left: 10px;
+    text-decoration: none;
+    color: skyblue;
+    font-size: 1.6rem;
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: skyblue;
+    transition: 0.5s;
+}
+
+.nav a:active{
+    transform: scale(.9);
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+header img{
+    border-radius: 4px;
+    object-fit: cover;
+
+}
+
+header h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+
+}
+
+header p{
+    font-weight: bold;
+    color: skyblue;
+}
+
+header a{
+    text-decoration: none;
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+header a:active{
+    transform: translate(20%, 50%);
+    
+
+}
+
+h2{
+    text-align: center;
+}
+.rating {
+    font-size: 24px;
+}
+.star {
+    color: grey;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.star:hover {
+    transform: scale(.9);
+}
+
+.testimonios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px dotted skyblue;
+    border-radius: 5px;
+}
+
+.testimonios strong{
+    color: skyblue;
+}
+
+.galeria img{
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.galeria img:hover{
+    transform: scale(1.1);
+}
+
+.galeria{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 8px;
+}
+
+.somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.somos a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+article{
+    font-weight: bold;
+    background: gray;
+    text-align: center;
+    height: 300px;
+    margin: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
